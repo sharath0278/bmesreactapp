@@ -31,7 +31,7 @@ class CartDetailComponent extends Component {
                                 <p>Your Cart</p>
                             </div>
                             <div>
-                                <link to={"/"} className="cart_detail__continue-shopping-button">Continue Shopping</link>
+                                <Link to={"/"} className="cart_detail__continue-shopping-button">Continue Shopping</Link>
                             </div>
                         </div>
                         <div>
