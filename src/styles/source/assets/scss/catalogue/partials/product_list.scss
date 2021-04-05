@@ -1,0 +1,20 @@
+.product-list {
+  &__upper-horizontal-line {
+    margin-top: 13px;
+    margin-bottom: 20px;
+  }
+
+  &__empty-notifier {
+    color: purple;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+
+  &__lower-horizontal-line {
+    margin-top: 2px;
+    margin-bottom: 15px;
+  }
+}
