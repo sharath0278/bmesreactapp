@@ -10,7 +10,7 @@ export const brandListActionCreators = {
 
         dispatch({ type: requestBrandListType });
 
-        const url = `api/brand`;
+        const url = `/api/brand`;
 
         const response = await fetch(url,
             {

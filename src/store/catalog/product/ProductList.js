@@ -26,7 +26,7 @@ export const productListActionCreators = {
             });
 
         if (response.ok) {
-            const productData = await response.json();
+            const productData = await response.json(url);
             dispatch({ type: receiveProductListSuccessType, productData });
         } else {
             dispatch({ type: receiveProductListErrorType });
