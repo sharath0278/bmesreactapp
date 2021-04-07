@@ -20,7 +20,7 @@ export const productListActionCreators = {
             {
                 method: 'GET',
                 headers: {
-                    'Accept': 'application/json',
+                    'Accept': 'application/json; odata = verbose',
                     'Content-Type': 'application/json',
                 }
             });
